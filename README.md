@@ -34,4 +34,4 @@ The algorithms were evaluated on three real-world datasets: FF49, NASDAQ100, and
 **Summary of Findings:**
 *   **Classical FW** often hits the iteration limit (1000 iterations) without reaching the required stopping tolerance ($10^{-8}$), resulting in non-sparse portfolios with many active assets.
 *   **Active-set variants (AFW and PFW)** significantly outperform the classical method. They converge much faster (e.g., ~70-150 iterations), achieve a much smaller optimality gap, and produce highly sparse portfolios (e.g., 8-14 active assets instead of 80+).
-*   **Pairwise Frank-Wolfe** generally proved to be the fastest variant in terms of both iteration count and CPU time across the tested datasets.
+*   **Pairwise Frank-Wolfe** it also produces highly sparse portfolios and it is the fastest variant in terms of both iteration count and CPU time across the tested datasets.
